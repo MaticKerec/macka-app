@@ -32,4 +32,4 @@ To run the Macka Bar website locally on your machine, follow these steps:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/macka-bar-maribor.git
+   git clone https://github.com/MaticKerec/macka-app.git
