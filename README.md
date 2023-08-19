@@ -1,2 +1,2 @@
-# Macka_app
+# Macka-app
 Website for the known bar located in Maribor
