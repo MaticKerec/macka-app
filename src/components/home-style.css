@@ -1,0 +1,47 @@
+body {
+  background: url("../images/white-texture.jpg");
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.coffeeCup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.welcomeText {
+  font-size: 5.5vw;
+  font-family: 'Dancing Script', cursive;
+  color: #ffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.coffeeCup {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .coffeeCup-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}

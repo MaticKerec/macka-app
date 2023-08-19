@@ -1,0 +1,44 @@
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.map-text-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.map-container,
+.about-text {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.about-text h2 {
+    font-family: 'Urbanist', sans-serif;
+
+}
+
+@media (max-width: 768px) {
+    .map-text-container {
+        flex-direction: column;
+    }
+
+    .about-text,
+    .map-container {
+        flex: 100%;
+        margin: 10px 0;
+    }
+}

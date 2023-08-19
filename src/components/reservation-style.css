@@ -1,0 +1,57 @@
+.reservation {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+}
+
+.reservation-container {
+    margin: 3%;
+}
+
+form {
+    font-size: 15px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.reservate-title {
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.reservation button {
+    font-family: 'Urbanist', sans-serif;
+    letter-spacing: 2px;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: #868B8E;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 15px 0 20px 0;
+}
+
+.reservate-title {
+    margin-bottom: 5%;
+}
+
+@media (max-width: 768px) {
+    .reservation {
+        width: 90%;
+    }
+
+    form {
+        max-width: 100%;
+    }
+}

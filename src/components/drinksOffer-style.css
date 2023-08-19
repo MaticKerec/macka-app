@@ -1,0 +1,60 @@
+.ponudba-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.items {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items h2 {
+    font-family: 'Comfortaa', cursive;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 3.5em;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.items h3 {
+    font-size: 1em;
+    font-family: 'Comfortaa', cursive;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    padding: 0 0 0 1%;
+}
+
+.icon-text {
+    width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4%;
+
+}
+
+.icon {
+    height: 85px;
+    width: auto;
+}
+
+.text-container {
+    text-align: center;
+}

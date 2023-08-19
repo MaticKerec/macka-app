@@ -1,0 +1,11 @@
+/* Location.css */
+.location-container {
+    width: 100%;
+}
+
+.location-iframe {
+    width: 100%;
+    /* Set the width to 100% */
+    height: 450px;
+    border: 0;
+}

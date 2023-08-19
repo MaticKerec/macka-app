@@ -1,0 +1,104 @@
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.menu-container h1 {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 30px;
+}
+
+.menu-container h2 {
+    font-family: 'Urbanist', sans-serif;
+    margin: -20px 0 35px 50px;
+
+}
+
+.menu-container span {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.demoPage {
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(200, 200, 200, 0.2);
+
+}
+
+.demoPage:first-child {
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo {
+    margin-top: 75px;
+    width: 600px;
+    height: 400px;
+}
+
+.items-container {
+    text-align: left;
+    padding: 10px;
+}
+
+.items-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.items-container li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.item-name {
+    width: 60%;
+}
+
+.item-price,
+.sub-item-price {
+    margin-right: 35px;
+}
+
+.sub-item-name {
+    margin-left: 20px;
+}
+
+.sub-items-container {
+    margin-left: 20px;
+}
+
+.house-wines-container h3 {
+    font-style: bold;
+}
+
+.house-wines-container {
+    text-align: left;
+    padding: 10px;
+}
+
+.house-wines-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.house-wines-container li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
