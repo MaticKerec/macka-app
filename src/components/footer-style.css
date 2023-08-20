@@ -67,6 +67,10 @@
 }
 
 @media (max-width: 768px) {
+    .footer-logo {
+        width: 100%;
+    }
+
     .footer-content {
         width: 100%;
         flex-direction: column;

@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.febf3626.chunk.css",
-  "main.js": "/static/js/main.42d8a7e6.chunk.js",
-  "main.js.map": "/static/js/main.42d8a7e6.chunk.js.map",
+  "main.css": "/static/css/main.ded05df9.chunk.css",
+  "main.js": "/static/js/main.721b6fcc.chunk.js",
+  "main.js.map": "/static/js/main.721b6fcc.chunk.js.map",
   "static/js/1.f9a280cc.chunk.js": "/static/js/1.f9a280cc.chunk.js",
   "static/js/1.f9a280cc.chunk.js.map": "/static/js/1.f9a280cc.chunk.js.map",
   "static/js/2.3a6c07f8.chunk.js": "/static/js/2.3a6c07f8.chunk.js",
@@ -19,8 +19,8 @@
   "static/media/macka-text-below.svg": "/static/media/macka-text-below.c05567de.svg",
   "static/media/logoText_macka-white.svg": "/static/media/logoText_macka-white.8a2a541d.svg",
   "static/media/home-style.css": "/static/media/white-texture.36fdc600.jpg",
-  "static/css/main.febf3626.chunk.css.map": "/static/css/main.febf3626.chunk.css.map",
+  "static/css/main.ded05df9.chunk.css.map": "/static/css/main.ded05df9.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.47ac05d56bc9ef37f641b8026769f64e.js": "/precache-manifest.47ac05d56bc9ef37f641b8026769f64e.js",
+  "precache-manifest.cfa691a3beeea4e8af4b2e8a2b9d08ea.js": "/precache-manifest.cfa691a3beeea4e8af4b2e8a2b9d08ea.js",
   "service-worker.js": "/service-worker.js"
 }
