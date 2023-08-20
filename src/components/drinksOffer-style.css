@@ -22,13 +22,13 @@
     font-family: 'Comfortaa', cursive;
     margin-top: 25px;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 2.5em;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .items h3 {
-    font-size: 1em;
+    font-size: 0.8em;
     font-family: 'Comfortaa', cursive;
 }
 

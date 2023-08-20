@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import HTMLFlipBook from 'react-pageflip';
 import logo from '../images/macka-text-below.svg';
 import './menu-style.css';
@@ -39,6 +39,12 @@ function Menu(props) {
                 { name: 'Mala bela kava / Small white coffee', price: '2.00 €' },
                 { name: 'Velika bela kava', price: '2.20 €' },
                 { name: 'Latte Macchiatto', price: '2.50 €' },
+            ],
+        },
+        {
+            title: 'Kava',
+            engItem: 'Coffee',
+            items: [
                 { name: 'Ledena Kava (sladoled & smetana) / Ice Coffee (ice cream & whipped cream)', price: '4.10 €' },
                 { name: 'Ledeni Kakav (sladoled & smetana) / Ice Cacao (ice cream & whipped cream)', price: '4.10 €' },
                 { name: 'Affogato', price: '2.90 €' },
@@ -116,32 +122,46 @@ function Menu(props) {
             title: 'Rdeča Vina',
             engItem: 'Red Wines',
             items: [
-                { name: 'Rdeča Vina / Red Wines' },
-                { name: 'Modri Pinot, suho / dry' },
-                { name: 'Modri Pinot, suho / dry' },
-                { name: 'Merlot Instinct, suho / dry' },
-                { name: 'Cabernet Sauvignon, suho / dry' },
-                { name: 'Sladki Refošk, sladko / sweet' },
-                { name: 'Rose Vina / Rose Wines' },
-                { name: 'Efekt Rose, polsuho / semi-dry' },
-                { name: 'Tris Rose, polsuho / semi-dry' },
+                { name: 'Rdeča Vina / Red Wines', price: '3.30 €' },
+                { name: 'Modri Pinot, suho / dry', price: '3.30 €' },
+                { name: 'Modri Pinot, suho / dry', price: '3.30 €' },
+                { name: 'Merlot Instinct, suho / dry', price: '3.10 €' },
+                { name: 'Cabernet Sauvignon, suho / dry', price: '3.10 €' },
+                { name: 'Sladki Refošk, sladko / sweet', price: '3.00 €' },
+                /*{ eng: 'Rose Vina / Rose Wines' },*/
+                { name: 'Efekt Rose, polsuho / semi-dry', price: '3.00 €' },
+                { name: 'Tris Rose, polsuho / semi-dry', price: '3.00 €' },
 
 
             ],
         },
     ];
+    const [flipbookWidth, setFlipbookWidth] = useState(600);
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 600) {
+                setFlipbookWidth(350);
+            } else {
+                setFlipbookWidth(600);
+            }
+        };
+
+        handleResize();
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     return (
         <div className="menu-container">
-            <HTMLFlipBook width={600} height={800}>
+            <HTMLFlipBook width={flipbookWidth} height={700}>
                 {pages.map((page, index) => (
-                    <div key={index} className="demoPage" style={{ paddingTop: '50px' }}>
-                        {index === 0 ? (
-                            <h1 style={{ textAlign: 'center' }}>{page.title}</h1>
-                        ) : (
-                            <h1>{page.title}</h1>
-                        )}
-                        {page.engItem && <h2>{page.engItem}</h2>}
+                    <div key={index} className="demoPage">
+                        <h1 className="page-title">{page.title}</h1>
+                        {page.engItem && <h2 className="eng-item">{page.engItem}</h2>}
                         {index === 0 && (
                             <div className="logo-container">
                                 <img className="logo" src={page.logo} alt="Logo" />
@@ -153,7 +173,7 @@ function Menu(props) {
                                     {page.items.map((item, itemIndex) => (
                                         <li key={itemIndex}>
                                             <span className="item-name">{item.name}</span>
-                                            <span className="item-price">{item.price}</span>
+                                            {item.price && <span className="item-price">{item.price}</span>}
                                         </li>
                                     ))}
                                 </ul>

@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.febf3626.chunk.css",
-  "main.js": "/static/js/main.16b0b4af.chunk.js",
-  "main.js.map": "/static/js/main.16b0b4af.chunk.js.map",
+  "main.js": "/static/js/main.42d8a7e6.chunk.js",
+  "main.js.map": "/static/js/main.42d8a7e6.chunk.js.map",
   "static/js/1.f9a280cc.chunk.js": "/static/js/1.f9a280cc.chunk.js",
   "static/js/1.f9a280cc.chunk.js.map": "/static/js/1.f9a280cc.chunk.js.map",
   "static/js/2.3a6c07f8.chunk.js": "/static/js/2.3a6c07f8.chunk.js",
@@ -9,7 +9,7 @@
   "runtime~main.js": "/static/js/runtime~main.148dedf1.js",
   "runtime~main.js.map": "/static/js/runtime~main.148dedf1.js.map",
   "static/media/logoText_macka.svg": "/static/media/logoText_macka.2f9fe6d1.svg",
-  "static/media/coffee_cup.jpg": "/static/media/coffee_cup.f811fca1.jpg",
+  "static/media/coffee_cup.jpg": "/static/media/coffee_cup.44218755.jpg",
   "static/media/seasonal.png": "/static/media/seasonal.474c6981.png",
   "static/media/lemonade.png": "/static/media/lemonade.7719e95b.png",
   "static/media/croissant.png": "/static/media/croissant.5112c65a.png",
@@ -21,6 +21,6 @@
   "static/media/home-style.css": "/static/media/white-texture.36fdc600.jpg",
   "static/css/main.febf3626.chunk.css.map": "/static/css/main.febf3626.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.692e37ccc97e39a12936bdacd5ae1ba5.js": "/precache-manifest.692e37ccc97e39a12936bdacd5ae1ba5.js",
+  "precache-manifest.47ac05d56bc9ef37f641b8026769f64e.js": "/precache-manifest.47ac05d56bc9ef37f641b8026769f64e.js",
   "service-worker.js": "/service-worker.js"
 }

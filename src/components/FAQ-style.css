@@ -116,11 +116,24 @@ button {
     }
 
     form {
-        padding: 1rem;
+        padding: 2rem;
         max-width: 100%;
     }
 
     .faq h1 {
         font-size: 20px;
+    }
+
+    .answer {
+        padding-top: 1rem;
+        font-size: 0.85rem;
+        margin-bottom: 50px;
+        max-height: none;
+        transition: none;
+    }
+
+    .answer.active {
+        max-height: initial;
+        transition: max-height 0.3s ease;
     }
 }

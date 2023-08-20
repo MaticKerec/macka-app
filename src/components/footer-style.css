@@ -79,10 +79,6 @@
         border-right: none;
     }
 
-    .footer-column:last-child {
-        margin-bottom: 0;
-    }
-
     .footer-column::after {
         content: '';
         position: absolute;
